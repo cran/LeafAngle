@@ -1,0 +1,6 @@
+exportPattern("^[^\\.]")
+S3method(plot, angledist)
+S3method(plot, angledistlist)
+S3method(print, angledist)
+S3method(print, angledistlist)
+S3method(summary, angledist)
