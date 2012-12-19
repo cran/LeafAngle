@@ -16,9 +16,11 @@ distributions = c('twoparbeta', 'ellipsoid', 'rotatedell', 'planophile',
   \item{distributions}{ By default, all implemented distributions. }
   \item{\dots}{ Further parameters to ftheta (none as of now). }
 }
-% \details{
-  % More details.
-% }
+\details{
+
+In most cases, the two-parameter beta distribution provides the best fit, because of greater flexibility. 
+
+}
 \value{
 Object of class angledistlist, which has print and plot methods.
 }
@@ -29,6 +31,19 @@ Effects on extinction coefficient and fraction of sunlit foliage. Agricultural a
 \author{ Remko Duursma }
 
 \seealso{ \code{\link{fitdistribution}}  }
-% \examples{}
+
+\examples{
+
+# Built-in example data
+data(eteret)
+
+# Fit all built-in distributions:
+fit1 <- fitalldistributions(eteret)
+fit1
+
+# Plot one of the fitted distributions:
+plot(fit1$allfits$planophile)
+
+}
 
 \keyword{ misc }

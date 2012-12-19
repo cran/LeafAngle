@@ -7,15 +7,16 @@ Functions for fitting and displaying leaf angle distributions
 }
 \description{
 A number of standard distributions to fit to (plant) leaf angle distributions:
-a special kind of distribution where 0 < angle <90 (degrees). Based on the list of distributions
-summarized by Wang et al. (2007). Uses maximum-likelihood to find parameters, and determine best fitting distributions.
+a special kind of distribution where 0 <= angle <= 90 (degrees). Based on the list of distributions
+summarized by Wang et al. (2007). Uses maximum-likelihood to find parameters, determines best fitting distributions,
+and includes some simple plotting methods.
 }
 \details{
 \tabular{ll}{
 Package: \tab LeafAngle\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2009-01-14\cr
+Version: \tab 1.2\cr
+Date: \tab 2012-12-19\cr
 License: \tab GPL \cr
 LazyLoad: \tab yes\cr
 }

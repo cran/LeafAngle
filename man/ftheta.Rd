@@ -4,8 +4,8 @@
 \alias{fthetaf}
 \title{ Density and cumulative probability functions for leaf angle distributions}
 \description{
-  ftheta is the density function, Ftheta gives the cumulative probability of a leaf angle, given
-  some distrbution. Useful in plotting curves, otherwise not used by user.
+  \code{ftheta} is the density function, \code{Ftheta} gives the cumulative probability of a leaf angle, given
+  some distrbution. Useful in plotting curves, otherwise not typically needed by user (see \code{\link{fitdistribution}} instead.
 }
 \usage{
 fthetacum(angles, degrees = TRUE, ...)

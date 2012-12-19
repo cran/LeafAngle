@@ -8,14 +8,14 @@
 drawsample(obj, n = 25, degrees = FALSE, ...)
 }
 \arguments{
-  \item{obj}{ Object of class angledist }
+  \item{obj}{ Object of class \code{angledist} }
   \item{n}{ Sample size }
   \item{degrees}{ Logical }
-  \item{\dots}{ More parameters to ftheta. }
+  \item{\dots}{ More parameters to \code{\link{ftheta}}. }
 }
-\details{
-More.
-}
+%\details{
+%More.
+%}
 \value{
 A vector of angles (0 - 90 degrees).
 }
