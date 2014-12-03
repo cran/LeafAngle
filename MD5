@@ -1,4 +1,4 @@
-a44e8ced115998364a3b739761a93482 *DESCRIPTION
+7c4949e61eeb489f208672f112079909 *DESCRIPTION
 703526743610d95b644c4d3379d373ec *NAMESPACE
 f6eca0fd377345a414cd8a8df0178a4e *R/angledist.R
 35aff4ec69c8b99a53bfbf00dc929c37 *R/chisqfit.R
@@ -14,13 +14,13 @@ c90945348216abe91f4509174c0d84ef *R/loglikfit.R
 8bb4b103c01274a0facf89f3f4c4314a *R/print.angledist.R
 3fb317feff7eb4dd208608367a4e5cd5 *R/print.angledistlist.R
 bc7f2667a7ccb204aa26d05c3d59ea6f *R/summary.angledist.R
-ff14f00c6e597090509b2e9b85912866 *data/eteret.rda
+54e70dc01cf3380cdf4547467d9513d3 *data/eteret.rda
 2e3056378e6709382900a7f92d88c4f4 *man/LeafAngle-package.Rd
 af5c067d4f1ce450eaa13250ef0da7fa *man/angledist.Rd
 6264d4f8031a2b4131c6d21eb38cb54b *man/drawsample.Rd
 b5731a89e6403d9fcd8c2a73e4132911 *man/eteret.Rd
 ba9f480c2c0ff4c3b66875d360f0a2ea *man/fitalldistributions.Rd
-81955d145a3f0318ce7d3a9b04611a98 *man/fitdistribution.Rd
+0a07758b86ff5c02944c649124ac10f9 *man/fitdistribution.Rd
 0047fa8ca12a8b62f967a16f13fb36c8 *man/ftheta.Rd
 01623a4181913462f3526abbd3879aa4 *man/loglikfit.Rd
 d139f14201ab62d3b32d800367cf193a *man/plot.angledist.Rd

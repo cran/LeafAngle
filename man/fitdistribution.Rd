@@ -8,7 +8,8 @@
   
   A leaf angle distribution is a distribution valid for 0 <= x <= 90.}
 \usage{
-fitdistribution(angles, distribution, fitmethod = c("loglik", "chisq"), ellipsmethod = 2, degrees = TRUE, ...)
+fitdistribution(angles, distribution, fitmethod = c("loglik", "chisq"), 
+  ellipsmethod = 2, degrees = TRUE, ...)
 }
 \arguments{
   \item{angles}{ Vector of leaf angles (0-90 degrees, or 0 - pi/2 radians) }
