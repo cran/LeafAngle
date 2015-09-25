@@ -31,7 +31,7 @@ function(angle,		# Leaf angle
     		}
     		if(X > 1){
     			eps <- sqrt(1 - X^-2)
-    			lambda <- X + log((1+eps)/(1-eps))/(2*eps*X)
+    			lambda <- X + log((1+eps)/(1+eps))/(2*eps*X)
     		}
     		# Approximation: lambda <- X + 1.744*(X + 1.182)^-0.733
     		res <- 2 * X^3 * sin(angle) / (lambda * ( cos(angle)^2 + X^2*sin(angle)^2 )^2)	
